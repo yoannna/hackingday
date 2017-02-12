@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "213602506365",
+    "firebase_url": "https://hacking-day.firebaseio.com",
+    "project_id": "hacking-day",
+    "storage_bucket": "hacking-day.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213602506365:android:c97058f82a5ec0c9",
+        "android_client_info": {
+          "package_name": "prisioners.day.hacker.science.hackerday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213602506365-hid1ak5n42hh7ksteifiuphr9fi8k3j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "prisioners.day.hacker.science.hackerday",
+            "certificate_hash": "EA0D69CE20D961D2AC49638DFDFEB0E85B0C5D53"
+          }
+        },
+        {
+          "client_id": "213602506365-ab016ljs5rj6bcb3g0pmau2qmc7f9k1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTN4nTwjiJRkP1jJHEoaZ86wfIDI8mgQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213602506365-ab016ljs5rj6bcb3g0pmau2qmc7f9k1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

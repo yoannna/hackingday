@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Ar jūsų draugas turi motyvą"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewQuestion"
+        android:layout_weight="1"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Ne"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonYes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/buttonNo" />
+
+    <Button
+        android:text="Taip"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/buttonYes"
+        android:layout_below="@+id/textViewQuestion"
+        android:layout_alignLeft="@+id/buttonNo"
+        android:layout_alignStart="@+id/buttonNo" />
+
+    <TextView
+        android:text="Motyvas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewMotyvas"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewQuestion"
+        android:layout_toEndOf="@+id/textViewQuestion"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+</RelativeLayout>
