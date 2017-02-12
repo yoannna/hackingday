@@ -33,7 +33,8 @@ private static TextView text;
 
     }
     private static void setText (){
-if (playerNo == 1) {
+		text.setText(Data.gameStory.place);
+		/*if (playerNo == 1) {
     if ("žmogžudystė".equals(Data.nusikaltimas)) {
         Random r = new Random();
         int index = r.nextInt(3);
@@ -59,7 +60,7 @@ if (playerNo == 1) {
         text.setText(Data.apiVieta[Question2.index2]);
 
     }
-        }
+        }*/
     }
     @Override
     public void onClick(View v) {

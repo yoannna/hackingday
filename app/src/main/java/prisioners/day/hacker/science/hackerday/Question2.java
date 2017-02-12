@@ -35,7 +35,8 @@ private static TextView text;
 
     }
     private static void setText (){
-        if (playerNo == 1) {
+        text.setText(Data.gameStory.clue);
+		/*if (playerNo == 1) {
             if ("žmogžudystė".equals(Data.nusikaltimas)) {
                 Random r = new Random();
                 int index = r.nextInt(3);
@@ -65,7 +66,8 @@ private static TextView text;
             }
 
         }
-    }
+    */	
+	}
     @Override
     public void onClick(View v) {
         switch (v.getId()){

@@ -33,7 +33,8 @@ private static TextView text;
 
     }
     private static void setText (){
-        if (playerNo == 1) {
+        text.setText(Data.gameStory.motive);
+		/*if (playerNo == 1) {
             if ("žmogžudystė".equals(Data.nusikaltimas)) {
                 Random r = new Random();
                 int index = r.nextInt(4);
@@ -59,7 +60,7 @@ private static TextView text;
                 text.setText(Data.apipMotyvas[ind]);
             }
         }
-
+		*/
     }
     @Override
     public void onClick(View v) {
